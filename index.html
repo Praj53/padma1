@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PadmaIndustries</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="headerlogoname">
+
+            <img class="logo" src="image/PadmaLogo1.png">
+            <span class="logoname">Padma Industries</span>
+
+        </div>
+
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar" class="navbarh">
+            <a href="#home" class="active">Home</a>
+            <a href="#product">Product</a>
+            <a href="#ourfirms">Our Firms</a>
+            <a href="#about">AboutUs</a>
+            <a href="#contact">ContactUs</a>
+
+        </nav>
+    </header>
+    <!-- Home Page -->
+    <section class="homesection">
+        <div id="home">
+            <div class="HomeContainer">
+                
+                <div class="Hdiv1">
+                    <h1>Padma Industries</h1>
+                    <h2> Trailer Manufacturing Company</h2>
+                    <p>Padma Industries is leading indian agricultural implements manufacturer company with a history
+                        of over a decade founded by a progressive farmer_late shri. Dattatray V. Yadav as Padma
+                        Industries in 1989 at umbraj, maharashtra, india. The company envisioned to mechanise indian
+                        agricultural completely.</p>
+                    <a href="#about"><button class="Hbtn"> View more</button></a>
+                   <a href="products.html"> <button class="Hbtn Hbtn2"> Product Gallery</button></a>
+                </div>
+                <div class="Hdiv2">
+                    <div class="slider-container">
+                        <div class="slider">
+                            <div class="slide"><img src="Image/bgimgabout.jpg" alt="Image 1"></div>
+                            <div class="slide"><img src="Image/h1.avif" alt="Image 2"></div>
+                            <div class="slide"><img src="Image/h2.jpg" alt="Image 4"></div>
+                            <!-- <div class="slide"><img src="Image/h3.jpg" alt="Image 4"></div> -->
+                        </div>
+                        <div class="navigation">
+                            <button class="nav-btn" onclick="moveSlide(-1)">&#10094;</button>
+                            <button class="nav-btn" onclick="moveSlide(1)">&#10095;</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Products -->
+    <section class="Products" id="product">
+        <div class="Fhead">
+            <!-- <div class="Hline"></div> -->
+            <div>
+                <h1 class="Fheading">Our Products </h1>
+            </div>
+            <!-- <div class="Hline"></div> -->
+        </div>
+        <div class="ProductContainer">
+            <div class="P1div">
+                <div class="P1divi">
+                    <img class="Pimg" src="Image/trailer.png" alt="">
+                    <div class="Poverlay  phead">Trailer</div>
+                </div>
+            </div>
+
+            <div class="P3div">
+                <div class="P3divi">
+                    <img class="Pimg" src="Image/cultivator.png" alt="">
+                    <div class="Poverlay" phead>Cultivator</div>
+
+                </div>
+            </div>
+            <div class="P4div">
+                <div class="P4divi">
+                    <img class="Pimg" src="Image/euipment.png" alt="">
+                    <div class="Poverlay phead">Equipments</div>
+                </div>
+            </div>
+            <div class="P2div">
+                <div class="P2divi">
+                    <img class="Pimg" src="Image/enfilder.png" alt="">
+                    <div class="Poverlay phead">Infielder</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our Firms -->
+    <section class="Firms" id="ourfirms">
+        <div class="Fhead">
+            <div class="Hline"></div>
+            <div>
+                <h1 class="Fheading">Our Firms<h1>
+            </div>
+            <div class="Hline"></div>
+        </div>
+        <div class="FirmsContainer">
+
+            <div class="F1div">
+                <div>
+                    <img src="Image/padmaagro.png" alt="">
+                    <h1>Padma Agro</h1>
+                    <p>Padma Industries offers a wide variety of farm tools made carefully to suit the needs of farmers
+                        all over India. Whether it's cultivating, seeding or harvesting, blend old-fashioned knowledge
+                        with new technology. </p>
+                    <button class="Fbtn">View More</button>
+                </div>
+
+            </div>
+
+            <div class="F2div">
+                <div>
+                    <img src="Image/trailer.png" alt="">
+                    <h1>Padma trailer</h1>
+                    <p>As Padma Industries continues to pave the way for innovation in Indian agriculture, its legacy of
+                        excellence and commitment to quality remains unwavering. With a rich history spanning over three
+                        decades,</p>
+                    <button class="Fbtn">View More</button>
+                </div>
+            </div>
+
+            <div class="F3div">
+
+                <div>
+                    <img src="Image/dy.png" alt="">
+                    <h1>DY Industries</h1>
+                    <p>Trusted & Guaranteed Tractor Trailer Spare Parts, Enhance the performance and reliability of your
+                        trailers with our superior,guaranteed tractor trailer spare parts</p>
+                    <button class="Fbtn">
+                        View More <a href="dynamicyeild.com"></a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- About Us -->
+
+    <section class="AboutUs" id="about">
+        <div id="counterDiv" ">
+        <div class="Aboutcontainer" >
+            <img class="background-image" src="Image/bgimgabout.jpg" alt="Background Image">
+
+            <div class="overlay"></div>
+
+            <div class="content">
+                <div class="column A1div">
+
+                    <div class="line line1">
+                        <h1>About Our </h1>
+                        <h1>Manufacturing</h1>
+                        <h1>Company</h1>
+
+                    </div>
+                    <p class="apara1"> Step into the world of agricultural innovation with Padma Industries, a trailblazing company
+                        rooted in the visionary ideals of its founder, the late Shri. Dattatray V. Yadav. Established in
+                        1989 in Umbraj, Maharashtra, India, Padma Industries embarked on a journey to revolutionize
+                        Indian agriculture through mechanization. What started as a humble endeavor focusing on spare
+                        parts, trolleys, and agricultural equipment, swiftly evolved into a comprehensive production
+                        line of top-notch agricultural implements, proudly bearing the brand name "Padma".
+                    </p>
+                    <button class=" A1divbtn">Our Other Firms</button>
+                </div>
+                <div class="column A2div">
+                    <h1>What We Are</h1>
+                    <div class="A2div1">
+                        <div class="A2divicon"> <i class='bx bx-cog bx-flip-horizontal' style='color:#00b98e'></i></div>
+                        <div>
+                            <h2>ISO : 9001</h2>
+                            <p class="apara">Our company proudly holds ISO certification, ensuring our commitment to quality, efficiency, and customer satisfaction."</p>
+                        </div>
+
+                    </div>
+                    <div class="A2div2">
+                        <div class="A2divicon"> <i class='bx bx-hive' style='color:#00b98e'></i></div>
+                        <div>
+                            <h2>  <span style="font-size: 4rem;" id="experience" class="counter">0</span>+ Yrs Of Experience</h2>
+                            <p class="apara">With over 35 years of industry expertise, we bring a wealth of knowledge and proven track record to every project.</p>
+                        </div>
+                    </div>
+                    <div class="A2div3">
+                        <div class="A2divicon"> <i class='bx bxs-user-check' style='color:#00b98e'></i></div>
+                        <div>
+                            <h2>Customer's Choice</h2>
+                            <p class="apara">Padma Trailers are always be a customer's choice </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- History -->
+    <div class="history">
+        <div class="Hheadline">
+            <h1> Founder of Padma Industries</h1>
+        </div>
+        <div class="historyContainer">
+            <div class="hisdiv1">
+                <img src="Image/cofounder.jpg" alt="">
+            </div>
+            <div class="hisdiv2 para-with-lines">
+                <h1 >Mr. Dattatray V. Yadav</h1>
+                <p > Padma Industries traces its roots to the pioneering spirit of Shri. Dattatray V. Yadav, a
+                    progressive farmer driven by a vision to modernize Indian agriculture. With over a decade of
+                    experience, Padma Industries has emerged as a leader in the sector, owing much to the foresight and
+                    dedication of its esteemed founder. Shri. Dattatray V. Yadav's legacy continues to inspire
+                    innovation and excellence within the company, guiding its path towards greater achievements.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <!-- Enquire us -->
+
+
+    <section class="Enquiry enq">
+        <div class="EnquiryContainer">
+            <div class="enq1div">
+                <img src="Image/egrey.png" alt="">
+
+            </div>
+            <div class="enq2div senq2div" >
+                
+                <h1>Enquire Us !</h1>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="mobile">Mobile:</label>
+                    <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" required>
+
+                    <label for="requirement">Requirement:</label>
+                    <textarea id="requirement" name="requirement" rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                    
+                </form>
+            </div>
+        </div>
+        <div class="enq2div" id="inquiry-form">
+            <span class="close-btn" onclick="closeForm()">&times;</span>
+            <h1>Enquire Us !</h1>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="mobile">Mobile:</label>
+                <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+
+                <label for="requirement">Requirement:</label>
+                <textarea id="requirement" name="requirement" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+                
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Adress Section -->
+
+
+    <section class="address" id="contact">
+        <!-- whole Container -->
+        <div class="addressContainer">
+            <!-- First Div -->
+            <div class="outerfirst">
+
+                <div class="first">
+                    <h1>Reach Out Us</h1>
+                    <!-- <h2>Padma Industries</h3> -->
+                    <p><img class="iconimg" src="icon/location.png" alt=""> Gat No-209, bhosalewadi, Korti, tal-karad
+                        ,Dist-satara, 415109</p>
+
+                    <p><img class="iconimg" src="icon/phone.png" alt="">+91 9960184444</p>
+                    <p><img class="iconimg" src="icon/mailicon.png" alt="">padmaindustries99@gmail.com</p>
+                </div>
+
+            </div>
+            <div class="outerfirsti">
+                <div class="map">
+                    
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.9466427392185!2d74.0991726!3d17.414348099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc229003c1bb177%3A0x46a6c63c9a200dc8!2sPadma%20Trailer%2C%20Padma%20Agro.!5e0!3m2!1sen!2sin!4v1710415583179!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <!-- Second Div -->
+            <div class="outersecond">
+                <div class="second">
+                    <h1>Quick Links</h1>
+
+
+                    <ul type="square">
+                        <li><img src="icon/next.png" alt=""><a href="#home">Home</a></li>
+                        <li><img src="icon/next.png" alt=""><a href="#product">Products</a></li>
+                        <li><img src="icon/next.png" alt=""><a href="#about">AboutUs</a></li>
+                        <li><img src="icon/next.png" alt=""><a href="#contact">Contact</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <!-- Third Div -->
+            <div class="outerthird">
+                <div class="third">
+
+                    <h1>Get In Touch</h1>
+                    <div class="social">
+                        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://wa.me/918275456364?text=hii"><i class='bx bxl-whatsapp-square'></i></a>
+
+                    </div>
+                    <div>
+                        <div class="outer-box">
+                            <span class="tap-me">Measssage Us</span>
+                            <button class="button">Whatsapp</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Padma Industries | All Rights Reserved.</p>
+        </div>
+
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="style.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+
+</html>

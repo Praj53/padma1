@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <style>
+        @media(min-width:1024px) {
+            html {
+                font-size: 60%;
+            }
+        }
+
+        @media(min-width :769px) and (max-width:1023px) {
+            html {
+                font-size: 60%;
+            }
+        }
+
+        @media(max-width:768px) {
+            html {
+                font-size: 55%;
+            }
+            .ProductGallery {
+                margin: 5rem;
+            }
+            .ProductGallery img{
+                height: 20rem;
+                width: 25rem;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            border: none;
+            outline: none;
+            scroll-behavior: smooth;
+            font-family: 'Popins', sans-serif;
+        }
+
+        :root {
+            --bg-color: #f6f8fc;
+            --second-bg-color: #392c76;
+            --text-color: #0E2E50;
+            --main-color: #00b98e;
+
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        section {
+            padding: 5rem 1% 6rem;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: .1rem 3%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+            background-color: rgba(246, 249, 247, 0.9);
+            /* border-radius: 0 0 1rem 1rem; */
+            /* opacity: 0.5; */
+        }
+
+        .headerlogoname {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo {
+            height: 4rem;
+            width: 5rem;
+            font-size: 2rem;
+            color: var(--text-color);
+            font-weight: 600;
+            cursor: default;
+        }
+
+        .logoname {
+
+            font-size: 2rem;
+            /* color: var(--main-color);
+     */
+            color: #bb703a;
+            margin-left: 1rem;
+            font-weight: 600;
+            align-items: center;
+            line-height: 2rem;
+            align-items: center;
+            justify-content: none;
+            /* font-family: 'Teko', sans-serif; */
+            letter-spacing: 0.1rem;
+        }
+
+        .ProductGallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3rem;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .Productimgdiv img {
+            height: 40rem;
+            width: 50rem;
+            object-fit: contain;
+        }
+
+        .Productimgdiv img {
+            object-fit: contain;
+        }
+        .Productimgdiv img {
+    transition: transform 0.3s ease; /* Add transition for smooth animation */
+}
+
+.Productimgdiv:hover img {
+    transform: scale(1.1); /* Scale the image to 110% on hover */
+}
+    </style>
+</head>
+
+<body>
+    <section>
+        <header class="header">
+            <div class="headerlogoname">
+
+                <img class="logo" src="image/PadmaLogo1.png">
+                <span class="logoname">Padma Industries</span>
+
+            </div>
+        </header>
+        <div class="ProductGallery">
+            <!-- <div class="Productimgdiv "><img src="Image/tank.png" alt=""></div>
+            <div class="Productimgdiv "><img src="Image/trailer.png" alt=""></div> -->
+            <div class="Productimgdiv "><img src="Image/p1.jpg" alt=""></div>
+            <div class="Productimgdiv "><img src="Image/p2.jpg" alt=""></div>
+            <div class="Productimgdiv "><img src="Image/p3.jpg" alt=""></div>
+            <div class="Productimgdiv "><img src="Image/p4.jpg" alt=""></div>
+            <div class="Productimgdiv "><img src="Image/p5.jpg" alt=""></div>
+            <div class="Productimgdiv "><img src="Image/p6.jpg" alt=""></div>
+            <div class="Productimgdiv "><img src="Image/p7.jpg" alt=""></div>
+            <div class="Productimgdiv "><img src="Image/p8.jpg" alt=""></div>
+            <div class="Productimgdiv "><img src="Image/p9.png" alt=""></div>
+            <div class="Productimgdiv "><img src="Image/p11.jpg" alt=""></div>
+            <div class="Productimgdiv "><img src="Image/p12.jpg" alt=""></div>
+
+
+        </div>
+    </section>
+</body>
+
+</html>
