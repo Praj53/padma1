@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
 //  ScrollReveal
 ScrollReveal({
   reset: true,
-  distance:'15px',
+  distance:25px',
   duration: 2000,
   delay: 100
 });
