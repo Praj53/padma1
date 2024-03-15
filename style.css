@@ -67,8 +67,8 @@ section {
 }
 
 .logo {
-    height: 4rem;
-    width: 5rem;
+    height: 3rem;
+    width: 4rem;
     font-size: 2rem;
     color: var(--text-color);
     font-weight: 600;
